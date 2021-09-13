@@ -238,7 +238,7 @@
             <div class="card-image waves-effect waves-block waves-light">
               <img
                 class="responsive-img activator"
-                src="https://smallpaes.github.io/portfolio/img/projects/todo-list.png"
+                src="https://github.com/iita71737/Todolist-by-vue-express-mongodb/blob/master/public/demo1.PNG?raw=true"
                 alt="./img/projects/todo-list.png Project Cover Photo"
               />
               <div class="overlay"></div>
@@ -256,23 +256,20 @@
             <div class="card-reveal">
               <div class="overlay"></div>
               <span class="card-title white-text"
-                >Accomplishments<i class="material-icons right">close</i></span
+                >Skill for this project<i class="material-icons right"
+                  >close</i
+                ></span
               >
               <ul class="white-text">
                 <li>
-                  <i class="fas fa-caret-right"></i>Express Handlebars &amp;
-                  Bootstrap
-                </li>
-                <li><i class="fas fa-caret-right"></i>MySQL &amp; Sequelize</li>
-                <li>
-                  <i class="fas fa-caret-right"></i>Passport Authentication
+                  <i class="fas fa-caret-right"></i>Front-End: <br />
+                  Vue.js &amp; Bootstrap
                 </li>
                 <li>
-                  <i class="fas fa-caret-right"></i>Front-end &amp; Back-end
-                  validation
+                  <i class="fas fa-caret-right"></i>Back-End: <br />
+                  Node.js &amp; Express.js &amp; MongoDB &amp; Mongoose &amp;
+                  Axios
                 </li>
-                <li><i class="fas fa-caret-right"></i>CSRF Protection</li>
-                <li><i class="fas fa-caret-right"></i>Animate.css</li>
               </ul>
               <div id="card-reveal-icons">
                 <a
@@ -293,11 +290,9 @@
         <div class="col m5 hide-on-med-and-down offset-m1 valign-wrapper">
           <h5 class="blue-grey-text text-darken-1">Todo List</h5>
           <span class="blue-grey-text text-lighten-1"
-            >A practical web application built with Node.js, Express, and MySQL
-            for you to readily record, view, and manage your tasks with an
-            account: Create, view, edit, delete, filter, and sort expenses are
-            as easy as pie</span
-          >
+            >A practical web application built with Vue, Node.js, Express, and
+            MongoDB
+          </span>
         </div>
 
         <div class="col s12 m6 animated flipInX">
@@ -327,19 +322,9 @@
               >
               <ul class="white-text">
                 <li>
-                  <i class="fas fa-caret-right"></i>Express Handlebars &amp;
-                  Bootstrap
+                  <i class="fas fa-caret-right"></i>Javascript &amp; Handlebars
+                  &amp; Express.js
                 </li>
-                <li><i class="fas fa-caret-right"></i>MySQL &amp; Sequelize</li>
-                <li>
-                  <i class="fas fa-caret-right"></i>Passport Authentication
-                </li>
-                <li>
-                  <i class="fas fa-caret-right"></i>Front-end &amp; Back-end
-                  validation
-                </li>
-                <li><i class="fas fa-caret-right"></i>CSRF Protection</li>
-                <li><i class="fas fa-caret-right"></i>Animate.css</li>
               </ul>
               <div id="card-reveal-icons">
                 <a
@@ -360,10 +345,8 @@
         <div class="col m5 hide-on-med-and-down offset-m1 valign-wrapper">
           <h5 class="blue-grey-text text-darken-1">Shorten-Url-Tool</h5>
           <span class="blue-grey-text text-lighten-1"
-            >A practical web application built with Node.js, Express, and MySQL
-            for you to readily record, view, and manage your tasks with an
-            account: Create, view, edit, delete, filter, and sort expenses are
-            as easy as pie</span
+            >A practical web application built with Node.js, Express and
+            Handlebars template engine</span
           >
         </div>
       </div>

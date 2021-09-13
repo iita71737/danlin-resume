@@ -32,6 +32,7 @@ header {
 }
 
 .brand-logo img {
+  margin-left: 1.6rem;
   padding: 6px 0;
   max-height: 64px;
 }
