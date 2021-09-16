@@ -1,4 +1,4 @@
-# danlin-resume-test
+# danlin-resume
 
 ## Project setup
 ```
@@ -11,8 +11,25 @@ npm run serve
 ```
 
 ### Compiles and minifies for production
+
+1.
 ```
 npm run build
+```
+2.
+```
+set deploy.sh file on root
+```
+3.
+```
+set     publicPath: process.env.NODE_ENV === 'production'
+        ? '/danlin-resume/'
+        : '/',
+in vue.config.js
+```
+4.
+```
+run ./deploy.sh 
 ```
 
 ### Lints and fixes files
