@@ -40,7 +40,7 @@
                 <!-- 在 <span> 加入 .badge 設定、.new 能為 Badge 加上背景色、data-badge-caption能客製化 Badge 顯示的訊息 -->
                 <span
                   class="new badge right activator"
-                  data-badge-caption="Chrome Extension"
+                  data-badge-caption="Vue.js & Express.js"
                 ></span
                 >restaurant-list-forum
               </p>
@@ -53,18 +53,31 @@
               >
               <ul class="white-text">
                 <li>
-                  <i class="fas fa-caret-right"></i>Express Handlebars &
-                  Bootstrap
+                  <i class="fas fa-caret-right"></i>Front-End: <br />
+                  Vue.js &amp; Vuex &amp; Bootstrap
                 </li>
-                // 其他技術項目
+                <li>
+                  <i class="fas fa-caret-right"></i>Back-End: <br />
+                  Node.js &amp; Express.js &amp; MySQL
+                </li>
+                <li>
+                  <i class="fas fa-caret-right"></i>Passport Authentication
+                </li>
               </ul>
+
               <div id="card-reveal-icons">
+                <a
+                  href="https://iita71737.github.io/forum-front-end-vue/#/signin"
+                  class="right btn-floating btn-small waves-effect waves-light teal"
+                  target="_blank"
+                  ><i class="fas fa-home"></i
+                ></a>
                 <a
                   href="https://github.com/iita71737/forum-front-end-vue/tree/dev-backend"
                   class="right btn-floating btn-small waves-effect waves-light teal"
                   target="_blank"
-                  ><i class="fas fa-home"></i></a
-                >` // 其他 icon
+                  ><i class="fab fa-github"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -73,7 +86,8 @@
         <div class="col m5 hide-on-med-and-down offset-m1 valign-wrapper">
           <h5 class="blue-grey-text text-darken-1">餐廳論壇專案</h5>
           <span class="blue-grey-text text-lighten-1"
-            >This is restaurant list froum project.</span
+            >This is restaurant list froum project build with Vue.js , Node.js,
+            Express.js</span
           >
         </div>
 
@@ -92,7 +106,7 @@
               <p class="activator truncate">
                 <span
                   class="new badge right activator"
-                  data-badge-caption="Node.js &amp; Express"
+                  data-badge-caption="SSR with Express.js &amp; handlebars "
                 ></span
                 >Expense Tracker
               </p>
@@ -109,18 +123,6 @@
                 </li>
                 <li>
                   <i class="fas fa-caret-right"></i>MongoDB &amp; Mongoose
-                </li>
-                <li>
-                  <i class="fas fa-caret-right"></i>Passport Authentication
-                </li>
-                <li>
-                  <i class="fas fa-caret-right"></i>Front-end &amp; Back-end
-                  validation
-                </li>
-                <li><i class="fas fa-caret-right"></i>CSRF Protection</li>
-                <li>
-                  <i class="fas fa-caret-right"></i>Password reset &amp; Mailing
-                  feature
                 </li>
               </ul>
               <div id="card-reveal-icons">
@@ -169,7 +171,7 @@
               <p class="activator truncate">
                 <span
                   class="new badge right activator"
-                  data-badge-caption="Node.js &amp; Express"
+                  data-badge-caption="Vue.js &amp; Express.js"
                 ></span
                 >Todo List
               </p>
@@ -194,15 +196,11 @@
               </ul>
               <div id="card-reveal-icons">
                 <a
-                  href="https://github.com/smallpaes/todo-list"
+                  href="https://github.com/iita71737/Todolist-by-vue-express-mongodb
+"
                   class="right btn-floating btn-small waves-effect waves-light teal"
                   target="_blank"
-                  ><i class="fab fa-github"></i></a
-                ><a
-                  href="https://bit.ly/2yIrimi"
-                  class="right btn-floating btn-small waves-effect waves-light teal"
-                  target="_blank"
-                  ><i class="fab fa-medium-m"></i
+                  ><i class="fab fa-github"></i
                 ></a>
               </div>
             </div>
@@ -231,7 +229,9 @@
               <p class="activator truncate">
                 <span
                   class="new badge right activator"
-                  data-badge-caption="Node.js &amp; Express"
+                  data-badge-caption="SSR
+ with Express.js &amp;
+ handlebars "
                 ></span
                 >Restaurant List
               </p>
@@ -243,21 +243,16 @@
               >
               <ul class="white-text">
                 <li>
-                  <i class="fas fa-caret-right"></i>Javascript &amp; Handlebars
-                  &amp; Express.js
+                  <i class="fas fa-caret-right"></i>Server Side Render with
+                  Handlebars &amp; Express.js
                 </li>
               </ul>
               <div id="card-reveal-icons">
                 <a
-                  href=""
+                  href="https://github.com/iita71737/restaurant_list"
                   class="right btn-floating btn-small waves-effect waves-light teal"
                   target="_blank"
-                  ><i class="fab fa-github"></i></a
-                ><a
-                  href=""
-                  class="right btn-floating btn-small waves-effect waves-light teal"
-                  target="_blank"
-                  ><i class="fab fa-medium-m"></i
+                  ><i class="fab fa-github"></i
                 ></a>
               </div>
             </div>
