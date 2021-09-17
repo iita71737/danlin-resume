@@ -127,20 +127,16 @@
               </ul>
               <div id="card-reveal-icons">
                 <a
-                  href="https://github.com/smallpaes/expense-tracker"
-                  class="right btn-floating btn-small waves-effect waves-light teal"
-                  target="_blank"
-                  ><i class="fab fa-github"></i></a
-                ><a
-                  href="https://bit.ly/2M679Q3"
-                  class="right btn-floating btn-small waves-effect waves-light teal"
-                  target="_blank"
-                  ><i class="fab fa-medium-m"></i></a
-                ><a
-                  href="https://boiling-beach-19178.herokuapp.com/"
+                  href="https://warm-bastion-04991.herokuapp.com/"
                   class="right btn-floating btn-small waves-effect waves-light teal"
                   target="_blank"
                   ><i class="fas fa-home"></i
+                ></a>
+                <a
+                  href="https://github.com/iita71737/expense-tracker"
+                  class="right btn-floating btn-small waves-effect waves-light teal"
+                  target="_blank"
+                  ><i class="fab fa-github"></i
                 ></a>
               </div>
             </div>
