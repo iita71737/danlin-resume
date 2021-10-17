@@ -27,9 +27,11 @@ set     publicPath: process.env.NODE_ENV === 'production'
         : '/',
 in vue.config.js
 ```
-4.
+
+run
+
 ```
-run ./deploy.sh 
+./deploy.sh 
 ```
 
 ### Lints and fixes files
