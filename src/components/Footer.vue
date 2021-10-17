@@ -22,7 +22,8 @@
               ><i class="fab fa-medium fa-2x"></i
             ></a>
             <a
-              href="https://www.linkedin.com/in/mike-huang-mikank/"
+              href="https://www.linkedin.com/in/chih-hao-lin-504b2ab4/
+"
               target="_blank"
               class="light-blue-text text-darken-3"
               ><i class="fab fa-linkedin fa-2x"></i
