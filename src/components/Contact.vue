@@ -12,8 +12,8 @@
       <div class="row">
         <form
           class="col s12 xl10 offset-xl1"
-          action="https://getform.io/f/f5781ce8-a6f2-406d-bde3-57b1b50da340"
-          method="POST"
+          @submit.stop.prevent="sendmail()"
+          ref="form"
         >
           <div class="row">
             <!-- 表單的 <input> 和 <label> 需要透過帶有 .input-field 的 <div> 元素包覆，提供欄位樣式和功能上的設定 -->
@@ -23,7 +23,13 @@
               <!-- https://materializecss.com/icons.html -->
               <i class="material-icons prefix">account_circle</i>
               <!-- 在 <input> 上加入.validate會偵測該欄位是否通過驗證，並根據結果自動加上 .valid 或 .invalid，同時會呈現綠色或紅色的樣式 -->
-              <input type="text" class="validate" id="name" required="" />
+              <input
+                type="text"
+                class="validate"
+                id="from_name"
+                name="from_name"
+                required=""
+              />
               <label for="name">Name</label>
               <!-- 在欄位下方加上帶有 .helper-text 的<span> 為該欄位增加輔助訊息，並透過 data-error 設定該欄位未通過驗證時的訊息 -->
               <span
@@ -80,3 +86,34 @@
     </div>
   </section>
 </template>
+
+<script>
+import emailjs from "emailjs-com";
+emailjs.init("user_k7MX5RdALDAkoiNx1fWf4");
+
+export default {
+  name: "Contact",
+  data() {
+    return {};
+  },
+  methods: {
+    async sendmail() {
+      const serviceID = "service_4pvxc5i";
+      const templateID = "template_99qfkqe";
+      const USER_ID = "user_k7MX5RdALDAkoiNx1fWf4";
+
+      await emailjs
+        .sendForm(serviceID, templateID, this.$refs.form, USER_ID)
+        .then(
+          res => {
+            console.log("SUCCESS!", res.status, res.text);
+            alert("Sent!");
+          },
+          err => {
+            console.log("FAILED...", err);
+          }
+        );
+    }
+  }
+};
+</script>
