@@ -7,7 +7,7 @@
           <div id="footer-logo">
             <img src="./../assets/img/logo1.png" alt="Logo of Dan" />
           </div>
-          <p class="white-text text-darken-3">Learn more about Mike</p>
+          <p class="white-text text-darken-3">Learn more about Dan</p>
           <div id="footer-links">
             <a
               href="https://github.com/iita71737?tab=repositories"

@@ -5,7 +5,7 @@
     <div class="slider">
       <ul class="slides">
         <li>
-          <img src="./../assets/img/123.jpg" alt="Background image of Mike" />
+          <img src="./../assets/img/123.jpg" alt="Background image of " />
           <!-- .caption 設定圖片中的字 -->
           <div class="caption left-align grey-text text-lighten-5">
             <h3>
@@ -16,7 +16,7 @@
           </div>
         </li>
         <li>
-          <img src="./../assets/img/456.jpg" alt="Background image of Mike" />
+          <img src="./../assets/img/456.jpg" alt="Background image of " />
           <div class="caption center-align grey-text text-lighten-4">
             <h3>
               I always tried to win,<br />

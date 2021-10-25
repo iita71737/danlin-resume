@@ -26,6 +26,83 @@
             <div class="card-image waves-effect waves-block waves-light">
               <img
                 class="responsive-img activator"
+                src="https://github.com/iita71737/react-store/raw/master/public/images/react-store.png"
+                alt="Placeholder Image Helper Project Cover Photo"
+              />
+              <div class="overlay"></div>
+              <span class="card-title activator">ReactStore-Demo</span>
+            </div>
+            <!--Card 下方標題和 Badge-->
+            <div class="card-action">
+              <!-- .activator 放置在圖片、下方標題等元素上，
+              讓使用者在點擊該元素時，能開啟 CardReveal 看到「更多資訊」-->
+              <p class="activator truncate">
+                <!-- 在 <span> 加入 .badge 設定、.new 能為 Badge 加上背景色、data-badge-caption能客製化 Badge 顯示的訊息 -->
+                <span
+                  class="new badge right activator"
+                  data-badge-caption="React & React-Hooks & Json-server"
+                ></span
+                >ReactStore-Demo-商業前端
+              </p>
+            </div>
+            <!--.card-reveal區塊，預設是隱藏起來的-->
+            <div class="card-reveal">
+              <div class="overlay"></div>
+              <span class="card-title white-text"
+                >Skills<i class="material-icons right">close</i></span
+              >
+              <ul class="white-text">
+                <li>
+                  <i class="fas fa-caret-right"></i>Front-End: <br />
+                  ReactJS &amp; ReactHooks &amp; Bulma
+                </li>
+                <li>
+                  <i class="fas fa-caret-right"></i>Back-End: <br />
+                  Json-Server &amp;
+                </li>
+                <li>
+                  <i class="fas fa-caret-right"></i>Deploy_Env: <br />
+                  F2E: Vercel &amp; B2E: Heroku
+                </li>
+              </ul>
+
+              <div id="card-reveal-icons">
+                <a
+                  href="https://react-store-hcwoxlqiz-iita71737.vercel.app/"
+                  class="right btn-floating btn-small waves-effect waves-light teal"
+                  target="_blank"
+                  ><i class="fas fa-home"></i
+                ></a>
+                <a
+                  href="https://github.com/iita71737/react-store"
+                  class="right btn-floating btn-small waves-effect waves-light teal"
+                  target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- https://materializecss.com/grid.html -->
+        <div class="col m5 hide-on-med-and-down offset-m1 valign-wrapper">
+          <h5 class="blue-grey-text text-darken-1">
+            ReactStore-電子商務前端Demo
+          </h5>
+          <span class="blue-grey-text text-lighten-1"
+            >This is E-Commerce web fornt-end project build with ReactJS &
+            Json-server for practice and Demo
+          </span>
+        </div>
+
+        <!--Projects be displayed here-->
+        <div class="col s12 m6 animated flipInX">
+          <!-- 透過 .card 設定元素為 Card； -->
+          <!-- .sticky-action 讓 Card Reveal 在開啟時，不會蓋住下方的標題。 -->
+          <div class="card  hoverable">
+            <!--透過.card-image 設定為 Card 圖片-->
+            <div class="card-image waves-effect waves-block waves-light">
+              <img
+                class="responsive-img activator"
                 src="https://github.com/iita71737/xxstudiotw-vue/blob/master/public/image/scrennshot.PNG?raw=true"
                 alt="Placeholder Image Helper Project Cover Photo"
               />
@@ -40,7 +117,7 @@
                 <!-- 在 <span> 加入 .badge 設定、.new 能為 Badge 加上背景色、data-badge-caption能客製化 Badge 顯示的訊息 -->
                 <span
                   class="new badge right activator"
-                  data-badge-caption="Vue.js & Express.js"
+                  data-badge-caption="Vue.js & Vuex"
                 ></span
                 >xxstudiotw-電子商務前端
               </p>
@@ -81,7 +158,7 @@
         </div>
         <!-- https://materializecss.com/grid.html -->
         <div class="col m5 hide-on-med-and-down offset-m1 valign-wrapper">
-          <h5 class="blue-grey-text text-darken-1">飾品電商網站前端demo</h5>
+          <h5 class="blue-grey-text text-darken-1">Vue飾品電商商務-前端demo</h5>
           <span class="blue-grey-text text-lighten-1"
             >This is E-Commerce web fornt-end project build with Vue.js , Vuex,
           </span>
