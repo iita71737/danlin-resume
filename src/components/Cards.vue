@@ -16,10 +16,8 @@
         <div class="col s12 m4">
           <!-- .card設定為Card, animated似乎沒效果?-->
           <div class="card animated">
-            <a href="" target="_blank">
-              <!-- .Card 上的圖片和標題分別使用 .card-image 和 .card-title
-就能擁有基本的尺寸和樣式設定
- -->
+            <a href="https://medium.com/" target="_blank">
+              <!-- .Card 上的圖片和標題分別使用 .card-image 和 .card-title就能擁有基本的尺寸和樣式設定-->
               <div class="card-image" id="card-image1">
                 <img src="./../assets/img/card1.jpg" alt="" />
                 <div class="overlay"></div>
@@ -30,7 +28,7 @@
         </div>
         <div class="col s12 m4">
           <div class="card animated">
-            <a href="" target="_blank">
+            <a href="https://medium.com/" target="_blank">
               <div class="card-image" id="card-image1">
                 <img src="./../assets/img/card2.jpg" alt="" />
 
@@ -43,7 +41,7 @@
 
         <div class="col s12 m4">
           <div class="card animated">
-            <a href="" target="_blank">
+            <a href="https://medium.com/" target="_blank">
               <div class="card-image" id="card-image1">
                 <img src="./../assets/img/card3.jpg" alt="" />
 
@@ -56,7 +54,7 @@
 
         <div class="col s12 m4">
           <div class="card animated">
-            <a href="" target="_blank">
+            <a href="https://medium.com/" target="_blank">
               <div class="card-image" id="card-image1">
                 <img src="./../assets/img/card4.jpg" alt="" />
 
@@ -69,7 +67,7 @@
 
         <div class="col s12 m4">
           <div class="card animated">
-            <a href="" target="_blank">
+            <a href="https://medium.com/" target="_blank">
               <div class="card-image" id="card-image1">
                 <img src="./../assets/img/card5.jpg" alt="" />
 
@@ -82,7 +80,7 @@
 
         <div class="col s12 m4">
           <div class="card animated">
-            <a href="" target="_blank">
+            <a href="https://medium.com/" target="_blank">
               <div class="card-image" id="card-image1">
                 <img src="./../assets/img/card6.jpg" alt="" />
 
